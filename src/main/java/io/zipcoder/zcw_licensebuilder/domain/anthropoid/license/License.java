@@ -68,4 +68,52 @@ public class License {
         this.licenseClass = licenseClass;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public String getStreetAddress() {
+        return streetAddress;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public State getState() {
+        return state;
+    }
+
+    public boolean isFemale() {
+        return isFemale;
+    }
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public Date getExpirationDate() {
+        return expirationDate;
+    }
+
+    public Date getIssueDate() {
+        return issueDate;
+    }
+
+    public Character getLicenseClass() {
+        return licenseClass;
+    }
+
 }

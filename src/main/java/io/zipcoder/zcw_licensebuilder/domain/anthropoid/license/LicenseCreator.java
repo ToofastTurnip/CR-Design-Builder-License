@@ -15,7 +15,7 @@ public class LicenseCreator {
                 .setFirstName(MockDataGenerator.createString('a', 'z', 16))
                 .setLastName(MockDataGenerator.createString('a', 'z', 16))
                 .setMiddleName(MockDataGenerator.createString('a', 'z', 16))
-                .setId(MockDataGenerator.createLong(1L, 10L))
+                .setId(MockDataGenerator.createLong(1L, 999L))
                 .setIssueDate(MockDataGenerator.createMonthDayYear(2010, 2017))
                 .setLicenseClass(MockDataGenerator.createCharacter('a', 'g'))
                 .setState(State.DELAWARE)
