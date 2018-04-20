@@ -6,11 +6,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.xml.crypto.Data;
 import java.util.Date;
 
 /**
  * Created by leon on 8/23/17.
+ * Improved by a dingus today
  */
 
 @Entity
@@ -53,5 +53,19 @@ public class License {
 
     @Column(name = "LICENSE_CLASS")
     private Character licenseClass;
+
+    public License(String firstName, String lastName, String middleName, String streetAddress, String city, State state, boolean isFemale, Date birthDate, Date expirationDate, Date issueDate, Character licenseClass) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.middleName = middleName;
+        this.streetAddress = streetAddress;
+        this.city = city;
+        this.state = state;
+        this.isFemale = isFemale;
+        this.birthDate = birthDate;
+        this.expirationDate = expirationDate;
+        this.issueDate = issueDate;
+        this.licenseClass = licenseClass;
+    }
 
 }
